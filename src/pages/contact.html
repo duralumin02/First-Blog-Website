@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="../../style.scss">
+</head>
+<body>
+ <div class="main-container">
+    <nav id="navbar">
+      <!-- hamburer menu -->
+      <div class="px-5 xl:px-64 py-5 h-fit mx-auto flex justify-between items-center">
+        <div class="blog text-darkSteelBlue text-2xl font-bold">BLOG</div>
+        <div class="flex justify-between items-center">
+          <ul id="nav-menu" class="nav-items hidden flex-col md:flex md:flex-row gap-7">
+            <li><a href="../../index.html" class="nav-item hover:text-lightBlue">Home</a></li>
+            <li><a href="./articles.html" class="nav-item hover:text-lightBlue">Articles</a></li>
+            <li><a href="./about.html" class="nav-item hover:text-lightBlue">About</a></li>
+            <li><a href="./contact.html" class="nav-item hover:text-lightBlue">Contact</a></li>
+            <li><a href="./signIn.html" class="nav-item hover:text-lightBlue">SignIn</a></li>
+          </ul>
+          <div id="hamburger-menu" class="block md:hidden cursor-pointer">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </div> 
+        </div>
+      </div>
+      <div id="menu-bg" class="menu-bg sm:block md:hidden"></div>
+      <!-- hamburger menu end --> 
+    </nav>
+    <!-- #navbar -->
+    <section class="py-10 px-4 lg:py-20 lg:px-44">
+      <div class="breadcrumb-sec flex-col-center mb-10 lg:mb-32 gap-2">
+        <h3 class="text-5xl font-semibold text-darkSteelBlue">Contact</h3>
+        <div class="breadcrumb mt-4">
+          <ol class="flex">
+            <li class="text-gray-400"><a href="../../index.html" class="flex-row-center hover:text-lightBlue">HOME <i class="bx bxs-chevron-right"></i></a></li>
+            <li class="text-gray-400 flex-row-center">CONTACT <i class="bx bxs-chevron-right"></i></li>
+          </ol>
+        </div> 
+      </div>
+      <!-- .breadcrumb-sec -->
+      <div class="address-sec grid grid-cols-1 lg:grid-cols-4 space-y-16 lg:space-y-0">
+        <div> 
+          <div class="flex-col-center gap-6">
+            <div class="w-16 h-16 rounded-full bg-thickBlue grid place-items-center">
+              <i class="bx bxs-location-plus text-white text-2xl"></i>
+            </div>
+            <div class="flex-col-center text-base text-darkSteelBlue leading-relaxed">
+              <p><span class="text-black">Address:</span> 198 West 21th</p>
+              <p>Street, Suite 721 New</p>
+              <p>York NY 10016</p>
+            </div>
+          </div>
+        </div>
+        <div> 
+          <div class="flex-col-center gap-6">
+            <div class="w-16 h-16 rounded-full bg-thickBlue grid place-items-center">
+              <i class="bx bxs-phone text-white text-2xl"></i>
+            </div>
+            <div class="flex-col-center text-base text-thickBlue leading-relaxed">
+              <p><span class="text-black">Phone:</span> + 1235 2355 98</p>
+            </div>
+          </div>
+        </div>
+        <div> 
+          <div class="flex-col-center gap-6">
+            <div class="w-16 h-16 rounded-full bg-thickBlue grid place-items-center">
+              <i class="bx bxl-telegram text-white text-2xl"></i>
+            </div>
+            <div class="flex-col-center text-base text-thickBlue leading-relaxed">
+              <p><span class="text-black">Email:</span> info@yoursite.com</p>
+            </div>
+          </div>
+        </div>
+        <div> 
+          <div class="flex-col-center gap-6">
+            <div class="w-16 h-16 rounded-full bg-thickBlue grid place-items-center">
+              <i class="bx bx-world text-white text-2xl"></i>
+            </div>
+            <div class="flex-col-center text-base text-thickBlue leading-relaxed">
+              <p><span class="text-black">Website:</span> duralumin.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- .address-sec -->
+      <div class="flex flex-col lg:flex-row shadow-lg mt-16">
+        <div class="basis-7/12">
+          <form action="#" method="post" class="py-12 px-10">
+            <h3 class="text-3xl text-darkSteelBlue mb-8">Contact Us</h3>
+            <div class="contact-form-gps grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div class="form-gp">
+                <label for="fullName" class="text-thickBlue text-sm font-semibold">FULL NAME</label>
+                <input type="text" id="fullName" class="py-2 text-sm tracking-wide" placeholder="Name">
+              </div>
+              <div class="form-gp">
+                <label for="email" class="text-thickBlue text-sm font-semibold">EMAIL ADDRESS</label>
+                <input type="email" id="email" class="py-2 text-sm tracking-wide" placeholder="Email">
+              </div>
+              <div class="form-gp lg:col-span-2">
+                <label for="subject" class="text-thickBlue text-sm font-semibold">SUBJECT</label>
+                <input type="text" id="subject" class="py-2 text-sm tracking-wide" placeholder="Subject">
+              </div>
+              <div class="form-gp lg:col-span-2">
+                <label for="message" class="text-thickBlue text-sm font-semibold">MESSAGE</label>
+                <textarea name="" id="message" class="py-2 text-sm tracking-wide" cols="30" rows="4" placeholder="Message"></textarea>
+              </div>
+            </div>
+            <!-- .contact-form-gps -->
+            <button type="submit" class="bg-thickBlue py-2 px-4 mt-5 text-white text-sm rounded">SEND MESSAGE</button>
+          </form>
+        </div>
+        <div class="basis-5/12">
+          <iframe class="w-full h-96 lg:h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105729.65085404017!2d-118.46176658649387!3d34.09381883255515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf07045279bf%3A0xf67a9a6797bdfae4!2sHollywood%2C%20Los%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2smm!4v1676723174540!5m2!1sen!2smm" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <!-- contact sec -->
+    </section>
+    <!-- main contact sec -->
+    <footer id="footer" class="bg-[#141B25] md:h-[48vh] xl:h-[75vh]">
+      <div class="h-5/6 flex flex-col lg:flex-row items-start p-5 xl:p-28 space-y-10 md:space-y-0">
+        <!-- social -->
+        <div class="basis-4/12">
+          <h2 class="text-white font-semibold text-xl mb-7">Duralumin</h2>
+          <div class="space-y-5">
+            <p class="text-paleWhite">Far far away, behind the word mountains, far from the countries.</p>
+            <div class="flex gap-3">
+              <div class="social-icons" data-aos="fade-up"><i class="bx bxl-twitter text-white text-base"></i></div>
+              <div class="social-icons" data-aos="fade-up" data-aos-delay="200"><i class="bx bxl-facebook text-white text-base"></i></div>
+              <div class="social-icons" data-aos="fade-up" data-aos-delay="300"><i class="bx bxl-instagram text-white text-base"></i></div>
+            </div>
+          </div>
+        </div>
+        <!-- pages -->
+        <div class="basis-4/12">
+          <h2 class="text-white font-semibold text-xl mb-7 sm:pl-20 xl:pl-28">Info</h2>
+          <div class="text-paleWhite space-y-4 sm:pl-20 xl:pl-28">
+            <p><i class="bx bxs-chevron-right"></i> Blog</p>
+            <p><i class="bx bxs-chevron-right"></i> Career</p>
+            <p><i class="bx bxs-chevron-right"></i> Team</p>
+            <p><i class="bx bxs-chevron-right"></i> Team</p>
+          </div>
+        </div>
+        <!-- address -->
+        <div class="basis-4/12">
+          <h2 class="text-white font-semibold text-xl mb-7">Have a questions?</h2>
+          <div class="text-paleWhite space-y-2">
+            <div class="table">
+              <div class="table-row">
+                <div class="table-cell"><i class="bx bxs-map-alt contact-icon text-2xl"></i></div>
+                <div class="table-cell"><span>14/A, Insein Road, East Gyogone, Qty.</span></div>
+              </div>
+              <div class="table-row">
+                <div class="table-cell"><i class="bx bxs-phone contact-icon"></i></div>
+                <div class="table-cell"><span class="text-sm">+959 761516129</span></div>
+              </div>
+              <div class="table-row">
+                <div class="table-cell"><i class="bx bxl-telegram contact-icon"></i></div>
+                <div class="table-cell"><span class="sm:text-xs xl:text-sm">sawnaytharpoe14@gmail.com</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-1/6 p-5 mt-8 lg:mt-0 lg:pl-28">
+        <p class="text-[#adb5bd]">Copyright ©2023 All rights reserved | This template is made with <i class="bx bxs-heart"></i> by <span class="text-white">Colorlib</span></p>
+      </div>
+    </footer>
+    <!-- #footer -->
+ </div>
+
+  <script type="module" src="./contact.js"></script>
+</body>
+</html>

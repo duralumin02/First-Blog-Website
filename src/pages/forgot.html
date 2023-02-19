@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forgot Passoword</title>
+  <link rel="stylesheet" href="../../style.scss">
+</head>
+<body>
+  <div class="main-container">
+    <main class="flex flex-col md:flex-row h-screen">   
+      <div class="basis-7/12 grid place-items-center">
+          <form action="#" class="w-3/6 grid grid-cols-1 gap-6 sign-form-gps mt-10">
+            <div class="space-y-5">
+              <h3 class="text-3xl font-semibold text-darkSteelBlue">Request New Password</h3>
+              <h5 class="text-gray-600 text-base">Lost your password? Enter your email and reset it in seconds!</h5>
+            </div>
+            <div class="form-gp">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="name@email.com">
+            </div>
+            <button class="py-3 rounded-lg bg-gray-900 text-white cursor-pointer">Request New Password</button>
+            <a href="./signIn.html" class="underline">Back to SignIn</a>
+          </form>
+      </div>   
+      <div class="basis-5/12">
+        <img src="../../public/blog-img/fotgotLayout.png" class="w-full h-full object-cover" alt="">
+      </div>
+    </main> 
+  </div>
+
+  <script src="./forgot.js"></script>
+</body>
+</html>
