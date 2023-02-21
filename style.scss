@@ -217,6 +217,19 @@
   @apply border outline-darkSteelBlue p-3 rounded-lg;
 }
 
+//detail article page
+.detail-page .cmt-form-gp{
+  @apply grid gap-2;
+}
+
+.detail-page .cmt-form-gp label{
+  @apply text-sm font-semibold text-thickBlue;
+}
+
+.detail-page .cmt-form-gp > input,textarea{
+  @apply py-2 px-2 outline-none border focus:border-thickBlue;
+}
+
 //responsive design layout
 @media (max-width:440px) {  
   #logo path:nth-child(1),
