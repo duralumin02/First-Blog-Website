@@ -1,182 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Articles</title>
-  <link rel="stylesheet" href="../../style.scss">
-</head>
-<body>
-  <div class="main-container">
-    <nav id="navbar">
-      <!-- hamburer menu -->
-      <div class="px-5 xl:px-64 py-5 h-fit mx-auto flex justify-between items-center">
-        <div class="blog text-darkSteelBlue text-2xl font-bold">BLOG</div>
-        <div class="flex justify-between items-center">
-          <ul id="nav-menu" class="nav-items hidden flex-col md:flex md:flex-row gap-7">
-            <li><a href="../../index.html" class="nav-item hover:text-lightBlue">Home</a></li>
-            <li><a href="./articles.html" class="nav-item hover:text-lightBlue">Articles</a></li>
-            <li><a href="./about.html" class="nav-item hover:text-lightBlue">About</a></li>
-            <li><a href="./contact.html" class="nav-item hover:text-lightBlue">Contact</a></li>
-            <li><a href="./signIn.html" class="nav-item hover:text-lightBlue">SignIn</a></li>
-          </ul>
-          <div id="hamburger-menu" class="block md:hidden cursor-pointer">
-            <div id="bar1" class="bar"></div>
-            <div id="bar2" class="bar"></div>
-            <div id="bar3" class="bar"></div>
-          </div> 
-        </div>
-      </div>
-      <div id="menu-bg" class="menu-bg sm:block md:hidden"></div>
-      <!-- hamburger menu end --> 
-    </nav>
-    <!-- #navbar -->
-    <section>
-      <div class="breadcrumb-sec flex-col-center gap-2 py-10 md:py-20">
-        <h3 class="text-5xl font-semibold text-darkSteelBlue">Our Blog</h3>
-        <div class="breadcrumb mt-4">
-          <ol class="flex">
-            <li class="text-gray-400"><a href="../../index.html" class="flex-row-center hover:text-lightBlue">HOME <i class="bx bxs-chevron-right"></i></a></li>
-            <li class="text-gray-400"><a href="./articles.html" class="flex-row-center hover:text-lightBlue">BLOG <i class="bx bxs-chevron-right"></i></a></li>
-            <li class="text-gray-400 flex-row-center">BLOG DETAILS <i class="bx bxs-chevron-right"></i></li>
-          </ol>
-        </div> 
-      </div>
-      <!-- .breadcrumb-sec -->
-      <main class="detail-page">
-        <div class="my-12 mx-7">
-          <!--1st blog -->
-          <div class="blog flex flex-row h-[90vh]">
-           <!-- blog img -->
-           <div class="blog-img basis-1/2" data-aos="zoom-in-up">
-             <img class="w-full h-full" src="/public/blog-img/1.jpg" alt="" />
-           </div>
-           <!-- blgo img end -->
-           <!-- blog content -->
-           <div class="flex flex-col justify-center basis-1/2" data-aos="zoom-in-up" data-aos-delay="200">
-             <div class="blog-content pl-12">
-               <div class="text-lightBlue font-semibold text-sm">
-                 <i class="bx bx-calendar"></i>
-                 <span>SEPT.27,2020</span>
-                 <i class="bx bxs-user"></i>
-                 <span>ADMIN</span>
-                 <i class="bx bxs-message-rounded"></i>
-                 <span>3</span>
-               </div>
-               <h1 class="text-5xl leading-snug my-4 font-extrabold text-darkSteelBlue">Turning a digital brand into a real world experience</h1>
-               <div class="w-fit flex items-center justify-between space-x-4">
-                 <img class="w-[70px] h-[70px] rounded-full" src="https://images.unsplash.com/photo-1548964095-b9a292144866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJ1c3NpbmVzcyUyMG1hbnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
-                 <div class="space-y-2">
-                   <p class="text-darkSteelBlue font-semibold">Jamie Johnson</p>
-                   <p class="text-lightBlue text-uppercase text-sm">CEO, PRODUCT DESIGNER</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-           <!-- blog content end -->
-          </div>
-          <div class="detail-content w-7/12 mx-auto my-16 leading-relaxed text-[17px] tracking-wide text-darkSteelBlue">
-            <p class="mb-10">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. <br><br>
-              Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. <br><br>
-              <span class="font-bold">On her way she met a copy.</span> The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
-            </p>
-            <h3 class="text-2xl mb-4 font-bold">How It Works</h3>
-            <p>
-              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. <br><br>
-              Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. <br><br>
-              On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
-            </p>
-          </div>
-          <div class="w-7/12 mx-auto my-36">
-            <h3 class="text-3xl font-bold text-darkSteelBlue mb-8">Leave a comment</h3>
-            <form action="#" class="grid grid-cols-1 gap-6 md:grid-cols-2 px-12 py-16 shadow-lg rounded-lg">
-              <div class="cmt-form-gp">
-                <label for="name">NAME*</label>
-                <input type="text" id="name">
-              </div>
-              <div class="cmt-form-gp">
-                <label for="email">EMAIL*</label>
-                <input type="email" id="email">
-              </div>
-              <div class="cmt-form-gp col-span-2">
-                <label for="website">WEBSITE</label>
-                <input type="text" id="website">
-              </div>
-              <div class="cmt-form-gp col-span-2">
-                <label for="website">MESSAGE</label>
-                <textarea name="" id="website" rows="10" class="border border-solid border-gray-200"></textarea>
-              </div>
-              <button class="text-white text-sm py-4 px-6 rounded bg-thickBlue">POST COMMENT</button>
-            </form>
-          </div>
-        </div>
-      </main>
-      <!-- .detail-page -->
-    </section>
-    <!-- .breadcrumb-sec && .our-article -->
-    <div id="subscribe">
-      <div class="h-96 bg-[#F9FAFF] flex flex-col justify-center items-center">
-        <p class="text-darkSteelBlue text-xl md:text-3xl font-semibold mb-3">Subscribe to our Newsletter</p>
-        <div class="w-fit border border-darkSteelBlue rounded-md overflow-hidden">
-          <input type="text" class="md:w-56 xl:w-72 outline-none bg-transparent pl-4" placeholder="Enter email address" />
-          <button class="py-3 px-5 bg-darkSteelBlue text-white">Subscribe</button>
-        </div>
-      </div>
-    </div>
-    <!-- #subscribe -->
-    <footer id="footer" class="bg-[#141B25] md:h-[48vh] xl:h-[75vh]">
-      <div class="h-5/6 flex flex-col lg:flex-row items-start p-5 xl:p-28 space-y-10 md:space-y-0">
-        <!-- social -->
-        <div class="basis-4/12">
-          <h2 class="text-white font-semibold text-xl mb-7">Duralumin</h2>
-          <div class="space-y-5">
-            <p class="text-paleWhite">Far far away, behind the word mountains, far from the countries.</p>
-            <div class="flex gap-3">
-              <div class="social-icons" data-aos="fade-up"><i class="bx bxl-twitter text-white text-base"></i></div>
-              <div class="social-icons" data-aos="fade-up" data-aos-delay="200"><i class="bx bxl-facebook text-white text-base"></i></div>
-              <div class="social-icons" data-aos="fade-up" data-aos-delay="300"><i class="bx bxl-instagram text-white text-base"></i></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Articles</title>
+    <link rel="stylesheet" href="../../style.scss" />
+  </head>
+  <body>
+    <div class="main-container">
+      <nav id="navbar">
+        <!-- hamburer menu -->
+        <div
+          class="px-5 xl:px-64 py-5 h-fit mx-auto flex justify-between items-center">
+          <div class="blog text-darkSteelBlue text-2xl font-bold">BLOG</div>
+          <div class="flex justify-between items-center">
+            <ul
+              id="nav-menu"
+              class="nav-items hidden flex-col md:flex md:flex-row gap-7">
+              <li>
+                <a href="/index.html" class="nav-item hover:text-lightBlue"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/src/pages/articles.html"
+                  class="nav-item hover:text-lightBlue"
+                  >Articles</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/src/pages/about.html"
+                  class="nav-item hover:text-lightBlue"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/src/pages/contact.html"
+                  class="nav-item hover:text-lightBlue"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/src/pages/signIn.html"
+                  class="nav-item hover:text-lightBlue"
+                  >SignIn</a
+                >
+              </li>
+            </ul>
+            <div id="hamburger-menu" class="block md:hidden cursor-pointer">
+              <div id="bar1" class="bar"></div>
+              <div id="bar2" class="bar"></div>
+              <div id="bar3" class="bar"></div>
             </div>
           </div>
         </div>
-        <!-- pages -->
-        <div class="basis-4/12">
-          <h2 class="text-white font-semibold text-xl mb-7 sm:pl-20 xl:pl-28">Info</h2>
-          <div class="text-paleWhite space-y-4 sm:pl-20 xl:pl-28">
-            <p><i class="bx bxs-chevron-right"></i> Blog</p>
-            <p><i class="bx bxs-chevron-right"></i> Career</p>
-            <p><i class="bx bxs-chevron-right"></i> Team</p>
-            <p><i class="bx bxs-chevron-right"></i> Team</p>
+        <div id="menu-bg" class="menu-bg sm:block md:hidden"></div>
+        <!-- hamburger menu end -->
+      </nav>
+      <!-- #navbar -->
+      <section>
+        <div class="breadcrumb-sec flex-col-center gap-2 py-10 md:py-20">
+          <h3 class="text-5xl font-semibold text-darkSteelBlue">Our Blog</h3>
+          <div class="breadcrumb mt-4">
+            <ol class="flex">
+              <li class="text-gray-400">
+                <a
+                  href="../../index.html"
+                  class="flex-row-center hover:text-lightBlue"
+                  >HOME <i class="bx bxs-chevron-right"></i
+                ></a>
+              </li>
+              <li class="text-gray-400">
+                <a
+                  href="./articles.html"
+                  class="flex-row-center hover:text-lightBlue"
+                  >BLOG <i class="bx bxs-chevron-right"></i
+                ></a>
+              </li>
+              <li class="text-gray-400 flex-row-center">
+                BLOG DETAILS <i class="bx bxs-chevron-right"></i>
+              </li>
+            </ol>
           </div>
         </div>
-        <!-- address -->
-        <div class="basis-4/12">
-          <h2 class="text-white font-semibold text-xl mb-7">Have a questions?</h2>
-          <div class="text-paleWhite space-y-2">
-            <div class="table">
-              <div class="table-row">
-                <div class="table-cell"><i class="bx bxs-map-alt contact-icon text-2xl"></i></div>
-                <div class="table-cell"><span>14/A, Insein Road, East Gyogone, Qty.</span></div>
+        <!-- .breadcrumb-sec -->
+        <main class="detail-page">
+          <div class="my-12 mx-7">
+            <!--1st blog -->
+            <div class="blog flex flex-row h-[90vh]">
+              <!-- blog img -->
+              <div class="blog-img basis-1/2" data-aos="zoom-in-up">
+                <img
+                  class="w-full h-full"
+                  src="/public/blog-img/1.jpg"
+                  alt="" />
               </div>
-              <div class="table-row">
-                <div class="table-cell"><i class="bx bxs-phone contact-icon"></i></div>
-                <div class="table-cell"><span class="text-sm">+959 761516129</span></div>
+              <!-- blgo img end -->
+              <!-- blog content -->
+              <div
+                class="flex flex-col justify-center basis-1/2"
+                data-aos="zoom-in-up"
+                data-aos-delay="200">
+                <div class="blog-content pl-12">
+                  <div class="text-lightBlue font-semibold text-sm">
+                    <i class="bx bx-calendar"></i>
+                    <span>SEPT.27,2020</span>
+                    <i class="bx bxs-user"></i>
+                    <span>ADMIN</span>
+                    <i class="bx bxs-message-rounded"></i>
+                    <span>3</span>
+                  </div>
+                  <h1
+                    class="text-5xl leading-snug my-4 font-extrabold text-darkSteelBlue">
+                    Turning a digital brand into a real world experience
+                  </h1>
+                  <div
+                    class="w-fit flex items-center justify-between space-x-4">
+                    <img
+                      class="w-[70px] h-[70px] rounded-full"
+                      src="https://images.unsplash.com/photo-1548964095-b9a292144866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJ1c3NpbmVzcyUyMG1hbnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+                      alt="" />
+                    <div class="space-y-2">
+                      <p class="text-darkSteelBlue font-semibold">
+                        Jamie Johnson
+                      </p>
+                      <p class="text-lightBlue text-uppercase text-sm">
+                        CEO, PRODUCT DESIGNER
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="table-row">
-                <div class="table-cell"><i class="bx bxl-telegram contact-icon"></i></div>
-                <div class="table-cell"><span class="sm:text-xs xl:text-sm">sawnaytharpoe14@gmail.com</span></div>
+              <!-- blog content end -->
+            </div>
+            <div
+              class="detail-content w-7/12 mx-auto my-16 leading-relaxed text-[17px] tracking-wide text-darkSteelBlue">
+              <p class="mb-10">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean. A small river named Duden flows by their
+                place and supplies it with the necessary regelialia. It is a
+                paradisematic country, in which roasted parts of sentences fly
+                into your mouth. <br /><br />
+                Even the all-powerful Pointing has no control about the blind
+                texts it is an almost unorthographic life One day however a
+                small line of blind text by the name of Lorem Ipsum decided to
+                leave for the far World of Grammar. <br /><br />
+                <span class="font-bold">On her way she met a copy.</span> The
+                copy warned the Little Blind Text, that where it came from it
+                would have been rewritten a thousand times and everything that
+                was left from its origin would be the word "and" and the Little
+                Blind Text should turn around and return to its own, safe
+                country. But nothing the copy said could convince her and so it
+                didn’t take long until a few insidious Copy Writers ambushed
+                her, made her drunk with Longe and Parole and dragged her into
+                their agency, where they abused her for their.
+              </p>
+              <h3 class="text-2xl mb-4 font-bold">How It Works</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean. A small river named Duden flows by their
+                place and supplies it with the necessary regelialia. It is a
+                paradisematic country, in which roasted parts of sentences fly
+                into your mouth. <br /><br />
+                Even the all-powerful Pointing has no control about the blind
+                texts it is an almost unorthographic life One day however a
+                small line of blind text by the name of Lorem Ipsum decided to
+                leave for the far World of Grammar. <br /><br />
+                On her way she met a copy. The copy warned the Little Blind
+                Text, that where it came from it would have been rewritten a
+                thousand times and everything that was left from its origin
+                would be the word "and" and the Little Blind Text should turn
+                around and return to its own, safe country. But nothing the copy
+                said could convince her and so it didn’t take long until a few
+                insidious Copy Writers ambushed her, made her drunk with Longe
+                and Parole and dragged her into their agency, where they abused
+                her for their.
+              </p>
+            </div>
+            <div class="w-7/12 mx-auto my-36">
+              <h3 class="text-3xl font-bold text-darkSteelBlue mb-8">
+                Leave a comment
+              </h3>
+              <form
+                action="#"
+                class="grid grid-cols-1 gap-6 md:grid-cols-2 px-12 py-16 shadow-lg rounded-lg">
+                <div class="cmt-form-gp">
+                  <label for="name">NAME*</label>
+                  <input type="text" id="name" />
+                </div>
+                <div class="cmt-form-gp">
+                  <label for="email">EMAIL*</label>
+                  <input type="email" id="email" />
+                </div>
+                <div class="cmt-form-gp col-span-2">
+                  <label for="website">WEBSITE</label>
+                  <input type="text" id="website" />
+                </div>
+                <div class="cmt-form-gp col-span-2">
+                  <label for="website">MESSAGE</label>
+                  <textarea
+                    name=""
+                    id="website"
+                    rows="10"
+                    class="border border-solid border-gray-200"></textarea>
+                </div>
+                <button
+                  class="text-white text-sm py-4 px-6 rounded bg-thickBlue">
+                  POST COMMENT
+                </button>
+              </form>
+            </div>
+          </div>
+        </main>
+        <!-- .detail-page -->
+      </section>
+      <!-- .breadcrumb-sec && .our-article -->
+      <div id="subscribe">
+        <div
+          class="h-96 bg-[#F9FAFF] flex flex-col justify-center items-center">
+          <p class="text-darkSteelBlue text-xl md:text-3xl font-semibold mb-3">
+            Subscribe to our Newsletter
+          </p>
+          <div
+            class="w-fit border border-darkSteelBlue rounded-md overflow-hidden">
+            <input
+              type="text"
+              class="md:w-56 xl:w-72 outline-none bg-transparent pl-4"
+              placeholder="Enter email address" />
+            <button class="py-3 px-5 bg-darkSteelBlue text-white">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- #subscribe -->
+      <footer id="footer" class="bg-[#141B25] md:h-[48vh] xl:h-[75vh]">
+        <div
+          class="h-5/6 flex flex-col lg:flex-row items-start p-5 xl:p-28 space-y-10 md:space-y-0">
+          <!-- social -->
+          <div class="basis-4/12">
+            <h2 class="text-white font-semibold text-xl mb-7">Duralumin</h2>
+            <div class="space-y-5">
+              <p class="text-paleWhite">
+                Far far away, behind the word mountains, far from the countries.
+              </p>
+              <div class="flex gap-3">
+                <div class="social-icons" data-aos="fade-up">
+                  <i class="bx bxl-twitter text-white text-base"></i>
+                </div>
+                <div
+                  class="social-icons"
+                  data-aos="fade-up"
+                  data-aos-delay="200">
+                  <i class="bx bxl-facebook text-white text-base"></i>
+                </div>
+                <div
+                  class="social-icons"
+                  data-aos="fade-up"
+                  data-aos-delay="300">
+                  <i class="bx bxl-instagram text-white text-base"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- pages -->
+          <div class="basis-4/12">
+            <h2 class="text-white font-semibold text-xl mb-7 sm:pl-20 xl:pl-28">
+              Info
+            </h2>
+            <div class="text-paleWhite space-y-4 sm:pl-20 xl:pl-28">
+              <p><i class="bx bxs-chevron-right"></i> Blog</p>
+              <p><i class="bx bxs-chevron-right"></i> Career</p>
+              <p><i class="bx bxs-chevron-right"></i> Team</p>
+              <p><i class="bx bxs-chevron-right"></i> Team</p>
+            </div>
+          </div>
+          <!-- address -->
+          <div class="basis-4/12">
+            <h2 class="text-white font-semibold text-xl mb-7">
+              Have a questions?
+            </h2>
+            <div class="text-paleWhite space-y-2">
+              <div class="table">
+                <div class="table-row">
+                  <div class="table-cell">
+                    <i class="bx bxs-map-alt contact-icon text-2xl"></i>
+                  </div>
+                  <div class="table-cell">
+                    <span>14/A, Insein Road, East Gyogone, Qty.</span>
+                  </div>
+                </div>
+                <div class="table-row">
+                  <div class="table-cell">
+                    <i class="bx bxs-phone contact-icon"></i>
+                  </div>
+                  <div class="table-cell">
+                    <span class="text-sm">+959 761516129</span>
+                  </div>
+                </div>
+                <div class="table-row">
+                  <div class="table-cell">
+                    <i class="bx bxl-telegram contact-icon"></i>
+                  </div>
+                  <div class="table-cell">
+                    <span class="sm:text-xs xl:text-sm"
+                      >sawnaytharpoe14@gmail.com</span
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="h-1/6 p-5 mt-8 lg:mt-0 lg:pl-28">
-        <p class="text-[#adb5bd]">Copyright ©2023 All rights reserved | This template is made with <i class="bx bxs-heart"></i> by <span class="text-white">Colorlib</span></p>
-      </div>
-    </footer>
-    <!-- #footer -->
-  </div>
-  <script src="./javascript/detail-article.js"></script>
-</body>
+        <div class="h-1/6 p-5 mt-8 lg:mt-0 lg:pl-28">
+          <p class="text-[#adb5bd]">
+            Copyright ©2023 All rights reserved | This template is made with
+            <i class="bx bxs-heart"></i> by
+            <span class="text-white">Colorlib</span>
+          </p>
+        </div>
+      </footer>
+      <!-- #footer -->
+    </div>
+    <script src="./javascript/detail-article.js"></script>
+  </body>
 </html>
